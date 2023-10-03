@@ -1,0 +1,206 @@
+@media screen and (max-width: 1410px) {
+  header .body {
+    width: 725px;
+  }
+  .SiteArrows {
+    width: 100px;
+    padding: 0 20px;
+  }
+  #superStars .superStarsBox {
+    width: 20%;
+    height: auto;
+  }
+  #superStars .superStarsBox img {
+    width: 100%;
+    height: auto;
+  }
+  .SiteImage {
+    width: calc(100% - 450px);
+    height: 725px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .SiteText {
+    width: 350px;
+    padding: 10px 20px;
+  }
+  .title {
+    width: 100%;
+  }
+  .titleH {
+    margin-left: 0;
+  }
+  .titleH h1 {
+    margin-left: 0;
+    font-size: 25px;
+  }
+  .titleH h2 {
+    font-size: 48px;
+  }
+  .title p {
+    font-size: 12px;
+  }
+  #partner .partnerLeft .SiteText {
+    width: 100%;
+  }
+  #partner .partnerRight {
+    width: 50%;
+    height: 720px;
+  }
+  footer .body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    height: 800px;
+    padding-bottom: 20px;
+  }
+  header .head {
+    width: 500px;
+  }
+  header .body {
+    width: 500px;
+    height: 280px;
+  }
+  header .foot {
+    padding: 0 20px;
+  }
+  header .foot p {
+    font-size: 12px;
+  }
+  #webSite {
+    padding: 10px 0;
+    flex-direction: column;
+  }
+  .SiteArrows {
+    width: 400px;
+    flex-direction: row;
+  }
+  .SiteText {
+    width: 100%;
+    height: auto;
+  }
+  .SiteImage {
+    width: 100%;
+    height: 500px;
+  }
+  .title {
+    width: 100%;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+  .titleH {
+    width: 100%;
+  }
+  .titleH h1 {
+    font-size: 20px;
+  }
+  .titleH h2 {
+    font-size: 35px;
+  }
+  .title p {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  #projects .projectsBoxs {
+    width: 100%;
+  }
+  #projects .projectHiddenBox h2 {
+    font-size: 12px;
+  }
+  #projects .projectHiddenBox h1 {
+    font-size: 20px;
+  }
+
+  #about {
+    padding: 0;
+    flex-direction: column;
+  }
+  .SiteArrows button {
+    font-size: 12px;
+    width: 150px;
+    height: 40px;
+    transform: rotate(0deg);
+  }
+  .SiteText h4 {
+    font-size: 14px;
+  }
+  .SiteText p {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  #superStars .superStarsBox {
+    width: 100%;
+    height: auto;
+    background-color: unset;
+  }
+  #superStars .superStarsBox img {
+    width: 100%;
+    height: auto;
+  }
+  #superStars .superStarsContent {
+    flex-direction: column;
+  }
+  #superStars .superStarsBox:hover img {
+    opacity: 1;
+  }
+
+  #partner {
+    flex-direction: column;
+    padding: 0;
+  }
+  #partner .partnerLeft {
+    width: 100%;
+    height: auto;
+  }
+  #partner .partnerRight {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    height: 300px;
+  }
+  footer .head {
+    width: 100%;
+    padding: 0 10px;
+  }
+  footer .head a {
+    font-size: 20px;
+  }
+  footer .body nav a {
+    font-size: 10px;
+    margin: 0 5px;
+  }
+  footer .foot {
+    font-size: 10px;
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header {
+    height: 600px;
+    padding-bottom: 10px;
+  }
+  header .head {
+    width: 370px;
+  }
+  header .body {
+    width: 370px;
+    height: auto;
+  }
+  header .foot {
+    padding: 0 10px;
+  }
+  header .foot p {
+    font-size: 12px;
+  }
+  #superStars {
+    width: 100%;
+  }
+}

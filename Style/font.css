@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Muli;
+  src: url("../Fonts/Mulish-Light.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: Muli;
+  src: url("../Fonts/Mulish-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: Muli;
+  src: url("../Fonts/Mulish-Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: Muli;
+  src: url("../Fonts/Mulish-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
